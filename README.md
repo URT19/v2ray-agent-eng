@@ -1,6 +1,6 @@
 # v2ray-agent
 
-- [感谢 JetBrains 提供的非商业开源软件开发授权](https://www.jetbrains.com/?from=v2ray-agent)
+- [Thanks to JetBrains for providing non-commercial open source software development authorization](https://www.jetbrains.com/?from=v2ray-agent)
 
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
@@ -9,77 +9,61 @@
 [![Official Website](https://img.shields.io/badge/Website-v2ray--agent.com-blue)](https://www.v2ray-agent.com/)
 [![English Version](https://img.shields.io/badge/English-Version-blue)](documents/en/README_EN.md)
 
-Xray-core/sing-box 一键脚本快速安装
+Xray-core/sing-box One-click Quick Install Script
 
-## 功能
+## Features
 
-*   **多核心支持:** 支持 Xray-core 和 sing-box.
-*   **多协议支持:** 支持 VLESS, VMess, Trojan, Hysteria2, Tuic, NaiveProxy 等多种协议.
-*   **自动TLS:** 自动申请和续订 SSL 证书.
-*   **易于管理:** 提供简单的菜单来管理用户、端口和配置.
-*   **订阅支持:** 生成和管理订阅链接.
-*   **分流管理:** 提供wireguard、IPv6、Socks5、DNS、VMess(ws)、SNI反向代理，可用于解锁流媒体、规避IP验证等作用.
-*   **目标域名管理:** 提供域名黑名单管理，可用于禁止访问指定网站.
-*   **BT下载管理:** 可用于禁止下载P2P相关内容.
-*   **更多内容请访问[官方网站](https://www.v2ray-agent.com/categories/jiao-cheng)、[备用](https://www.592083.com/categories/jiao-cheng)、[X](https://x.com/v2rayagent)**
+*   **Multi-core Support:** Supports Xray-core and sing-box.
+*   **Multi-protocol Support:** Supports various protocols like VLESS, VMess, Trojan, Hysteria2, Tuic, NaiveProxy.
+*   **Automatic TLS:** Automatically applies for and renews SSL certificates.
+*   **Easy Management:** Provides a simple menu to manage users, ports, and configurations.
+*   **Subscription Support:** Generates and manages subscription links.
+*   **Traffic Splitting Management:** Provides wireguard, IPv6, Socks5, DNS, VMess(ws), SNI reverse proxy, which can be used to unlock streaming media, evade IP verification, etc.
+*   **Target Domain Management:** Provides domain name blacklist management, which can be used to prohibit access to specified websites.
+*   **BT Download Management:** Can be used to prohibit the download of P2P-related content.
+*   **For more content, please visit the [Official Website](https://www.v2ray-agent.com/categories/jiao-cheng), [Backup](https://www.592083.com/categories/jiao-cheng)**
 
-## 快速开始
+## Quick Start
 
-### 安装脚本版
+### Installation
 
 ```
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+bash wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 
-### 使用
+### Usage
 
-安装后，运行以下命令可再次打开管理菜单:
+After installation, run the following command to open the management menu again:
 
 ```
 vasma
 ```
 
-### 安装Docker版
-```
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/shell/docker_reality.sh" && chmod 700 /root/docker_reality.sh && /root/docker_reality.sh
-```
+## Documentation and Guides
 
-### 使用 
+*   [From Beginner to Master with the 8-in-1 Script](https://www.v2ray-agent.com/archives/1710141233)
+*   [Quick Script Setup Tutorial](https://www.v2ray-agent.com/archives/1682491479771)
+*   [Script Usage Precautions](https://www.v2ray-agent.com/archives/1679931532764)
+*   [Script Exception Handling](https://www.v2ray-agent.com/archives/1684115970026)   
+*   [VPS Purchasing Guide](https://www.v2ray-agent.com/archives/1679975663984)
+*   [Junk VPS Savior, one-click setup of the latest hysteria2 protocol](https://www.v2ray-agent.com/archives/1697162969693)
+*   [RackNerd Low-cost Unicom AS4837 Package, starting from $10/year](https://www.v2ray-agent.com/archives/racknerdtao-can-zheng-li-nian-fu-10mei-yuan)
+*   [Recommended High-Quality Bandwagon Host Packages](https://www.v2ray-agent.com/archives/2023nian-ban-wa-gong-ji-fang-tui-jian)
+*   [Recommended High-Quality DMIT Packages](https://www.v2ray-agent.com/archives/1679159868033)
 
-* [Docker Reality 使用说明](https://www.v2ray-agent.com/archives/019e1b57-92b3-70ab-8919-cdf8c0bb4fe9)
- 
-安装后，运行以下命令可再次打开管理菜单:
+## Community & Support
 
-```
-vasmad
-```
+*   **Telegram:** [Channel](https://t.me/v2rayAgentChannel) | [Group](https://t.me/technologyshare)
+*   **Website:** [Official](https://www.v2ray-agent.com/) | [Backup](https://www.592083.xyz/)
+*   **Feedback:** [Submit an issue](https://github.com/mack-a/v2ray-agent/issues)
 
-## 文档和指南
+## Donation
 
-*   [八合一脚本从入门到精通](https://www.v2ray-agent.com/archives/1710141233)
-*   [脚本快速搭建教程](https://www.v2ray-agent.com/archives/1682491479771)
-*   [脚本使用注意事项](https://www.v2ray-agent.com/archives/1679931532764)
-*   [脚本异常处理](https://www.v2ray-agent.com/archives/1684115970026)   
-*   [VPS选购攻略](https://www.v2ray-agent.com/archives/1679975663984)
-*   [垃圾VPS大救星，hysteria2最新协议一键搭建](https://www.v2ray-agent.com/archives/1697162969693)
-*   [RackNerd低价 联通AS4837套餐，年付10美起](https://www.v2ray-agent.com/archives/racknerdtao-can-zheng-li-nian-fu-10mei-yuan)
-*   [搬瓦工优质套餐推荐](https://www.v2ray-agent.com/archives/2023nian-ban-wa-gong-ji-fang-tui-jian)
-*   [DMIT优质套餐推荐](https://www.v2ray-agent.com/archives/1679159868033)
+Thank you for your attention and support for this open source project. If you find this project helpful, you are welcome to donate in the following ways.
 
-## 社区与支持
+*   [Donate by purchasing a VPS](https://www.v2ray-agent.com/categories/vps)
+*   [Donate to me via cryptocurrency](https://www.v2ray-agent.com/1679123834836)
 
-*   **Telegram:** [频道](https://t.me/v2rayAgentChannel) | [群组](https://t.me/technologyshare)
-*   **网站:** [官网](https://www.v2ray-agent.com/) | [备用](https://www.592083.xyz/)
-*   **反馈:** [提交 issue](https://github.com/mack-a/v2ray-agent/issues)
-*   **X:** [链接](https://x.com/v2rayagent)
+## License
 
-## 捐赠
-
-感谢您对开源项目的关注和支持。如果您觉得这个项目对您有帮助，欢迎通过以下方式进行捐赠。
-
-*   [购买VPS捐赠](https://www.v2ray-agent.com/categories/vps)
-*   [通过虚拟币向我捐赠](https://www.v2ray-agent.com/1679123834836)
-
-## 许可证
-
-本项根据 [AGPL-3.0 许可证](LICENSE) 授权.
+This project is licensed under the [AGPL-3.0 License](LICENSE).
