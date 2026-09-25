@@ -28,7 +28,7 @@ Xray-core/sing-box One-click Quick Install Script
 ### Installation
 
 ```
-bash wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/URT19/v2ray-agent-eng/refs/heads/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/URT19/v2ray-agent-eng/refs/heads/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 
 ### Usage
